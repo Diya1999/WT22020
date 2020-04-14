@@ -2,13 +2,13 @@
 
 Analysis and Visualization of Healthcare data
 
-##Description
+## Description
 
 
-##Front End Framework used:
+## Front End Framework used:
 Vue js
 
-##Backend Framework used:
+## Backend Framework used:
 Flask using Python
 
 
