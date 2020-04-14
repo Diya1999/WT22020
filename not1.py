@@ -5,7 +5,7 @@ import chart_studio.tools as tls
 import pandas as pd
 import numpy as np
 
-df=pd.read_csv("C:\\Users\\diyas\\OneDrive\\Desktop\\SEM6\\WT2\\WTProject\\train_2v.csv")
+df=pd.read_csv("train_2v.csv")
 df['bmi'] = df['bmi'].replace(np.nan, 0)
 df['smoking_status'] = df['smoking_status'].replace(np.nan, "Data Unavailable")
 stroke=df[df['stroke']== 1]
