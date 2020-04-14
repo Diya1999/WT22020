@@ -4,7 +4,7 @@ Analysis and Visualization of Healthcare data
 
 ## Description
 The website looks into the analysis of stroke related healthcare dataset (Dataset.zip)
-Pages:
+### Pages:
 1. Home Page - The front page through with basic details and navigation to the pages (wt_project/views/Home.vue)
 2. Login Page - The page helps Admins to login to their account (Firebase authenticiation) (wt_project/views/Signin.vue)
 3. Stats Page - This page has analysis,interactive graphs and visualization of various attributes related to strokes (wt_project/views/STATS.vue)
@@ -41,8 +41,8 @@ API's using flask have been used for accessing the backend.
 
 ## Contributors
 
-### C Diya - PES1201700246
-### Namrata R - PES1201700921
-### Chiranth J - PES1201701438
+#### C Diya - PES1201700246
+#### Namrata R - PES1201700921
+#### Chiranth J - PES1201701438
 
 
