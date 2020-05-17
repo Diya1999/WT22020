@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "7198d1f6-44bf-4785-9e77-d868957c001d",
+		"name": "LoadTest1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "metrics",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/metrics",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"metrics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addData1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"1\", \"gender\": \"Male\", \"age\": \"21\", \"hypertension\": \"False\", \"heart_disease\": \"True\", \"ever_married\": \"True\", \"work_type\": \"Private\", \"Residence_type\": \"Urban\", \"avg_glucose_level\": \"123\", \"bmi\": \"345\", \"smoking_status\": \"never_smoked\", \"stroke\":\"False\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/addData",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"addData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addData2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"19876543\", \"gender\": \"Male\", \"age\": \"21\", \"hypertension\": \"False\", \"heart_disease\": \"True\", \"ever_married\": \"True\", \"work_type\": \"Private\", \"Residence_type\": \"Urban\", \"avg_glucose_level\": \"123\", \"bmi\": \"345\", \"smoking_status\": \"never_smoked\", \"stroke\":\"False\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/addData",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"addData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addData3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\" \", \"gender\": \"Male\", \"age\": \"21\", \"hypertension\": \"False\", \"heart_disease\": \"True\", \"ever_married\": \"True\", \"work_type\": \"Private\", \"Residence_type\": \"Urban\", \"avg_glucose_level\": \"123\", \"bmi\": \"345\", \"smoking_status\": \"never_smoked\", \"stroke\":\"False\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/addData",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"addData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addData4",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"34567\", \"gender\": \"Male\", \"age\": \"21\", \"hypertension\": \"False\", \"heart_disease\": \"True\", \"ever_married\": \"True\", \"work_type\": \"Private\", \"Residence_type\": \"Urban\", \"avg_glucose_level\": \"123\", \"bmi\": \"345\", \"smoking_status\": \"never_smoked\", \"stroke\":\"False\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/addData",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"addData"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
